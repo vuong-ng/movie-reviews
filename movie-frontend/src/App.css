@@ -1,0 +1,47 @@
+
+.topnav {
+  background-color:#181818;
+  display:flex;
+  flex-direction: row;
+  padding:1em;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+
+}
+.topnav a{
+  float: left;
+  display:block;
+  color:white;
+  text-align: center;
+  padding:14px 16px;
+  text-decoration:none;
+  font-size:1.2rem;
+  text-transform:uppercase;
+}
+
+.card {
+  display:flex;
+  flex-direction: column;
+  box-sizing: border;
+  box-shadow:2px 2px 4px rgba(0, 0, 0, 0.15);
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  border: #FAD9ED;
+  /* box-shadow: 0 0 5px 2px; */
+  background-color: #302D2C;
+  
+}
+
+.section{
+  width:min(1000px, 100%);
+  margin:0 auto;
+  display:grid;
+  grid-template-columns: repeat(3,300px);
+  gap:1em;
+  padding:2em;
+  align-self: center;
+  margin:0 auto;
+}
